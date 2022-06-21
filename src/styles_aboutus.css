@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0e0e0;
+}
+
+
+.main{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    width: 30rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    border-radius: 5px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.prof{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+}
+
+#about1{
+    font-weight: bold;
+}
+
+#name1{
+    font-size: 2rem;
+}
+
+a:hover{
+    text-decoration: none;
+    color: orangered;
+}

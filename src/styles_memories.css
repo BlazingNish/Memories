@@ -1,0 +1,140 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e0e0e0;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+
+.exp1{
+    width: auto;
+    height: auto;
+    display: flex;
+    font-size: 2vw;
+    margin: 20px 5px;
+    align-self: auto;
+    flex-wrap: wrap;
+}
+
+.img1{
+    margin: 20px 5px;
+    width: 300px;
+    height: 300px;
+}
+
+.img1 img{
+    border-radius: 5px;
+}
+
+
+.foot{
+    margin: 5px 0 0 0;
+    padding: 0 0 0 0;
+    background-color: #e0e0e0;
+}
+
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    padding-bottom: 50px;
+}
+
+.exp2{
+    width:auto;
+    height: auto;
+    font-size: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0 0 0;
+    align-self: auto;
+}
+.img2{
+    margin: 20px 5px;
+    margin-bottom: 0;
+    width: 300px;
+    height: 300px;
+}
+.img2 img{
+    border-radius: 5px;
+}
+.styled-break {
+    width: 50px;
+    height: 5px;
+    background-color: #a17df4;
+    border-radius: 2.5px;
+    margin: 5px 0 0 0;
+} 
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: orangered;
+}
+
+a:active{
+    color: purple;
+}
+
+.footer{
+    margin: 30px 0 0 0;
+    padding: 2px 0 0 0;
+}
+
+footer li{
+    display: inline-block;
+    padding-inline: 20px;
+}
+
+
+.inbox{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+
+.blockquote{
+    border-left: none;
+}
+
+.card-holder{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+    padding-bottom: 2rem;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+}
+.whole{
+    background-color: beige;
+}
+.card1{
+    margin-top: 2rem;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: beige;
+}
